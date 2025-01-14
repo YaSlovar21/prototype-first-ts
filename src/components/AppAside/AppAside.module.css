@@ -1,0 +1,7 @@
+.aside {
+    @apply w-96 h-full fixed top-0 left-0 bg-slate-900 flex flex-col items-center py-20;
+}
+
+.aside__button {
+    @apply inline-flex items-center gap-2 rounded-md bg-gray-700 py-3 px-6 text-xl/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white;
+}
