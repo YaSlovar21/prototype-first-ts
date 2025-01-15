@@ -1,3 +1,7 @@
 .content {
     @apply pl-96;
 }
+
+.uzli {
+    @apply w-1/2 p-12;
+}
