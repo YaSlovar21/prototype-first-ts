@@ -1,7 +1,9 @@
 import vvoda from '../images/vvoda-sboku.png';
 import so_zav from '../images/so-zav.png';
 import so_nezav from '../images/so-nezav.png';
-
+import gvs from '../images/gvs-one-step-sboku.png';
+import gvs_monoblok from '../images/gvs-two-step-sboku.png';
+ 
 const btpIngreds = [
     {
         "_id":"60666c42cc7b410027a1a9b50",
@@ -31,6 +33,23 @@ const btpIngreds = [
         "image": so_nezav,
         "__v":0
      },
+     {
+      "_id":"60666c42cc7b410027a1a9b5113",
+      "name":"Узел ГВС",
+      "type":"gvs",
+      "price":3000,
+      "image": gvs,
+      "specification": [{"id":1,"name":" Пластинчатый теплообменник","quantity":1,"category":"pto"},{"id":2,"name":" Насос (циркуляционный)","quantity":2,"category":"nasosy"},{"id":3,"name":" Двухходовой регулирующий клапан (с электроприводом), Kvs=, DN","quantity":1,"category":"valves"},{"id":4,"name":" Фильтр сетчатый, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":5,"name":" Клапан обратный, муфтовый, латунь, PN25, DN","quantity":2,"category":"fittings"},{"id":6,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":5,"category":"fittings"},{"id":7,"name":" Фильтр сетчатый, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":8,"name":" Клапан обратный, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":9,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":3,"category":"fittings"},{"id":10,"name":" Кран шаровый, стандартнопроходной, фланцевый, PN16, DN","quantity":2,"category":"fittings"},{"id":11,"name":" Манометр, шкала 0-16 бар","quantity":13,"category":"kipAndOthers"},{"id":12,"name":" Кран для подключения манометра, PN16, DN15","quantity":13,"category":"fittings"},{"id":13,"name":" Счетчик холодной воды, PN16, DN","quantity":1,"category":"kipDn"},{"id":14,"name":" Реле перепада давления","quantity":1,"category":"kipAndOthers"},{"id":15,"name":" Биметаллический термометр с гильзой, шкала 0-160°С","quantity":5,"category":"kipAndOthers"},{"id":16,"name":" Датчик температуры","quantity":1,"category":"kipAndOthers"},{"id":17,"name":" Защитная гильза","quantity":1,"category":"kipAndOthers"},{"id":18,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":4,"category":"fittings"},{"id":19,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":2,"category":"fittings"},{"id":20,"name":" Клапан предохранительный, Pсраб=1,0-12,0 бар","quantity":1,"category":"fittings"},{"id":21,"name":" Клапан балансировочный, PN16, DN","quantity":1,"category":"valves"},{"id":22,"name":" Реле давления (0,3 МПа)","quantity":1,"category":"kipAndOthers"},{"id":23,"name":" Кран шаровый, муфтовый, с дренажем и воздухоотвод-ом, латунь, DN15","quantity":3,"category":"fittings"}],
+      "__v":0
+   },
+   {
+      "_id":"60666c42cc7b410027a1a9b5223",
+      "name":"Узел ГВС моноблок",
+      "type":"gvs",
+      "specification": [{"id":1,"name":" Пластинчатый теплообменник","quantity":1,"category":"pto"},{"id":2,"name":" Насос (циркуляционный)","quantity":2,"category":"nasosy"},{"id":3,"name":" Двухходовой регулирующий клапан (с электроприводом), Kvs=, DN","quantity":1,"category":"valves"},{"id":4,"name":" Фильтр сетчатый, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":5,"name":" Клапан обратный, муфтовый, латунь, PN25, DN","quantity":2,"category":"fittings"},{"id":6,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":5,"category":"fittings"},{"id":7,"name":" Фильтр сетчатый, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":8,"name":" Клапан обратный, муфтовый, латунь, PN25, DN","quantity":1,"category":"fittings"},{"id":9,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":2,"category":"fittings"},{"id":10,"name":" Кран шаровый, стандартнопроходной, фланцевый, PN16, DN","quantity":1,"category":"fittings"},{"id":11,"name":" Манометр, шкала 0-16 бар","quantity":14,"category":"kipAndOthers"},{"id":12,"name":" Кран для подключения манометра, PN16, DN15","quantity":14,"category":"kipAndOthers"},{"id":13,"name":" Счетчик холодной воды, PN16, DN","quantity":1,"category":"kipDn"},{"id":14,"name":" Реле перепада давления","quantity":1,"category":"kipAndOthers"},{"id":15,"name":" Биметаллический термометр с гильзой, шкала 0-160°С","quantity":6,"category":"kipAndOthers"},{"id":16,"name":" Датчик температуры","quantity":1,"category":"kipAndOthers"},{"id":17,"name":" Защитная гильза","quantity":1,"category":"kipAndOthers"},{"id":18,"name":" Кран шаровый, стандартнопроходной, фланцевый, PN16, DN","quantity":1,"category":"fittings"},{"id":19,"name":" Кран шаровый, стандартнопроходной, фланцевый, PN16, DN","quantity":1,"category":"fittings"},{"id":20,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":6,"category":"fittings"},{"id":21,"name":" Кран шаровый, муфтовый, латунь, PN25, DN","quantity":2,"category":"fittings"},{"id":22,"name":" Клапан предохранительный, Pсраб=1,0-12,0 бар","quantity":1,"category":"fittings"},{"id":23,"name":" Клапан балансировочный, PN16, DN","quantity":1,"category":"valves"},{"id":24,"name":" Реле давления (0,3 МПа)","quantity":1,"category":"kipAndOthers"},{"id":25,"name":" Кран шаровый, муфтовый, с дренажем и воздухоотвод-ом, латунь, DN15","quantity":3,"category":"fittings"},{"id":26,"name":"Кран шаровой стандартнопроходной Regula, PN16, DN","quantity":1,"category":"fittings"}],
+      "image": gvs_monoblok,
+      "__v":0
+   }
 ];
 
 export default btpIngreds;
