@@ -17,15 +17,22 @@ import PdfToShow from '../PdfToShow/PdfToShow';
 
 import { PDFDownloadLink, PDFViewer } from '@react-pdf/renderer';
 import PdfTableTest from '../PdfTableTest/PdfTableTest';
+import SchemeSvg from '../SchemeSvg/SchemeSvg';
 
+import { Text, Svg, Rect, G, ClipPath, Defs, Path, Tspan } from '@react-pdf/renderer';
+import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs';
+import SchemeSvgReal from '../SchemeSvgReal/SchemeSvgReal';
 
 function App() {
   const [selectedIngreds, setSelectedIngreds] = React.useState([]); 
   const [viewedIngr, setViewedIngr] = React.useState(null);
-
+  
   const ingredsSo = useMemo(()=> btpIngreds.filter(i => i.type === 'so'));
   const ingredsGvs = useMemo(()=> btpIngreds.filter(i => i.type === 'gvs'));
   const ingredsUvuu = useMemo(()=> btpIngreds.filter(i => i.type === 'uvuu'));
+
+  const [nodeSvg, setNodeSvg] = React.useState(null)
+
 
 
   return (
@@ -66,9 +73,8 @@ function App() {
         </div>
         
         <div className='basis-1/2 py-12'>
-          <div className='svg-container'>
-            
-          </div>
+          {/*<SchemeSvg onSvgRendered={setNodeSvg} />*/}
+          <SchemeSvgReal />
 
           <SpecTable specificationList={viewedIngr?.specification} />
 
@@ -79,9 +85,7 @@ function App() {
           }
         </div>
 
-        <PDFViewer>
-          <PdfTableTest />
-      </PDFViewer>
+     
       </main>
      
     </div>

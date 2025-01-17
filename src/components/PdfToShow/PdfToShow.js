@@ -44,6 +44,7 @@ const styles2 = StyleSheet.create({
         borderRightColor: borderColor,
         borderRightWidth: 1,
         paddingLeft: 8,
+        height: '100%',
     },
     qty: {
         width: '10%',
@@ -51,6 +52,7 @@ const styles2 = StyleSheet.create({
         borderRightWidth: 1,
         textAlign: 'right',
         paddingRight: 8,
+        height: '100%',
     },
     rate: {
         width: '15%',
@@ -58,11 +60,13 @@ const styles2 = StyleSheet.create({
         borderRightWidth: 1,
         textAlign: 'right',
         paddingRight: 8,
+        height: '100%',
     },
     amount: {
         width: '15%',
         textAlign: 'right',
         paddingRight: 8,
+        height: '100%',
     },
 });
 
@@ -75,22 +79,33 @@ const ExampleSvg = () => (
   </Svg>
 );
 
+const componentProps = {
+  x: 200,
+  y: 200,
+
+  /*'text-anchor': node.getAttribute('text-anchor'),
+  'data-z-index': node.getAttribute('data-z-index'),*/
+}
 
 const PdfToShow = ({id, specData}) => (
   <Document>
-    {/*<Page size="A3">
+    {<Page size="A3">
         Здесь будет SVG из DOM
-    </Page>*/}
+        <Svg width="200" height="200" viewBox="-100 -100 200 250">
+          <Text {...componentProps}>123123</Text>
+          </Svg>
+    </Page>}
     <Page size="A4" style={styles.page}>
         <View style={styles.section}>
             <Text>{id}</Text>
-
+            <Text children="23423423" />
             {specData.map(item => (
                  <View style={styles2.row} key={item.id.toString()}>
                     <Text style={styles2.qty}>{item.id}</Text>
                     <Text style={styles2.description}>{item.name}</Text>
                     <Text style={styles2.qty}>{item.quantity}</Text>
                     <Text style={styles.rate}>{item.category}</Text>
+                    
                 </View>
             ))}
 
