@@ -1,0 +1,3 @@
+.svg-container div div svg {
+    @apply w-full;
+}

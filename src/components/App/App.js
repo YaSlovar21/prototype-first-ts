@@ -67,13 +67,13 @@ function App() {
               </li>
             ))} 
           </ul>
-          
-          
-          
+
         </div>
-        
-        <div className='basis-1/2 py-12'>
+
+      </main>
+      <div className={`basis-1/2 ${styles.content} w-full py-12`}>
           {/*<SchemeSvg onSvgRendered={setNodeSvg} />*/}
+
           <SchemeSvgReal />
 
           <SpecTable specificationList={viewedIngr?.specification} />
@@ -84,10 +84,6 @@ function App() {
             </PDFViewer> 
           }
         </div>
-
-     
-      </main>
-     
     </div>
   );
 }

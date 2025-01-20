@@ -5,6 +5,7 @@ import { Text, Svg, Rect, G, ClipPath, Defs, Path, Tspan, Polyline,Line , Polygo
 import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs';
 
 import html2canvas from 'html2canvas';
+import styles from './SchemeSvg.module.css';
 
 function renderNode(node) {
     let Component;
@@ -52,11 +53,11 @@ function renderNode(node) {
     case "TEXT":
         Component = Text
         componentProps = {
-        x: parseIntAttributes(node.getAttribute('x')),
-        'text-anchor': node.getAttribute('text-anchor'),
-        'data-z-index': node.getAttribute('data-z-index'),
-        style: getStyleObjectFromString(node.getAttribute('style')),
-        y: parseIntAttributes(node.getAttribute('y'))
+            x: parseIntAttributes(node.getAttribute('x')),
+            'text-anchor': node.getAttribute('text-anchor'),
+            'data-z-index': node.getAttribute('data-z-index'),
+            style: getStyleObjectFromString(node.getAttribute('style')),
+            y: parseIntAttributes(node.getAttribute('y'))
         }
         break;
     case "PATH":
@@ -160,26 +161,29 @@ function SchemeSvg({onSvgRendered}) {
       }, [isSvgRendered]);
  
     return (
-        <div className='svg-container max-w-6xl'>
+        <div className='svg-container w-full '>
             <ReactSVG  
-                src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn-scheme.svg" 
+                
+                src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn-new2001.svg" 
                 afterInjection={(svg) => {
                     //console.log(svg.tagName);
                     //onSvgRendered(svg);
                     svg.classList.add('svg-rendered');
                     setIsSvgRendered(true);
+                    svg.setAttribute('width', '100%');
+                    svg.setAttribute('height', '100%')
                     console.log('afterInjection')
                 }}
             />
             
             {isCanvasReady && 
                 <PDFViewer>
-                <Document>
-                    <Page size="A4">
-                        <Image source={dataImg} />
-                    </Page>
-                </Document>
-            </PDFViewer>
+                    <Document>
+                        <Page size="A4" orientation='landscape'>
+                            <Image source={dataImg} />
+                        </Page>
+                    </Document>
+                </PDFViewer>
             }
                     
         </div>

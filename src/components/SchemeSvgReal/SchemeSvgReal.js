@@ -1,10 +1,13 @@
 
 import React from 'react';
 import { ReactSVG } from 'react-svg';
-import { Text, Svg, Rect, G, ClipPath, Defs, Path, Tspan, Polyline,Line , Polygon, PDFViewer, Page, Document, Canvas, Image } from '@react-pdf/renderer';
+import { Text, Svg, Rect, G, ClipPath, Defs, Path, Tspan, Polyline,Line , Polygon, PDFViewer, Page, Document, Canvas, Image, Font, StyleSheet } from '@react-pdf/renderer';
 import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs';
 
 import html2canvas from 'html2canvas';
+
+import fontSource from '../../vendor/GOST_type_A.woff';
+Font.register({ family: 'GOST_type_A', src: fontSource });
 
 function renderNode(node) {
     let Component;
@@ -14,25 +17,26 @@ function renderNode(node) {
         Component = Svg
         componentProps = {
         xmlns: 'http://www.w3.org/2000/svg',
-    
-        width: node.getAttribute('width'),
-        height: node.getAttribute('height'),
+        
+        fontFamily: 'GOST_type_A',
+        
+        //width: node.getAttribute('width'),
+        //height: node.getAttribute('height'),
         viewBox: node.getAttribute('viewBox'),
-        style: {
-            fontSize: '12px'
-        }
+        width: "100%",
+        height: "auto",
         }
         break;
     case "RECT": 
-        Component = Rect
-        componentProps = {
-        x: parseIntAttributes(node.getAttribute('x')),
-        y: parseIntAttributes(node.getAttribute('y')),
-        fill: node.getAttribute('fill'),
-        width: parseIntAttributes(node.getAttribute('width')),
-        height: parseIntAttributes(node.getAttribute('height')),
-        rx: parseIntAttributes(node.getAttribute('rx')),
-        ry: parseIntAttributes(node.getAttribute('ry'))
+          Component = Rect
+          componentProps = {
+          x: parseIntAttributes(node.getAttribute('x')),
+          y: parseIntAttributes(node.getAttribute('y')),
+          fill: node.getAttribute('fill'),
+          width: parseIntAttributes(node.getAttribute('width')),
+          height: parseIntAttributes(node.getAttribute('height')),
+          rx: parseIntAttributes(node.getAttribute('rx')),
+          ry: parseIntAttributes(node.getAttribute('ry'))
         }
         break
     case "CLIPPATH": 
@@ -55,47 +59,46 @@ function renderNode(node) {
         }
         break;
     case "TEXT":
-        //Component = Text
-        /*componentProps = {
-            x: 200,
-            y: 200,
-            children: JSON.parse(JSON.stringify(node.textContent)),
-            /*'text-anchor': node.getAttribute('text-anchor'),
-            'data-z-index': node.getAttribute('data-z-index'),
-            style: getStyleObjectFromString(node.getAttribute('style')),
-            fontSize: node.getAttribute('font-size'),
-            transform: node.getAttribute('transform'),
-        }*/
-        //return null;
-        //break;
-        //console.log(node.textContent, '0--------------------------')
-        return <Text>iii</Text>;
-    case "PATH":
-        Component = Path
+      Component = Text
         componentProps = {
-        'data-z-index': node.getAttribute('data-z-index'),
-        d: node.getAttribute('d'),
-        fill: node.getAttribute('fill'),
-        opacity: node.getAttribute('opacity'),
-        stroke: node.getAttribute("stroke"),
+          
+          'text-anchor': node.getAttribute('text-anchor'),
+          'data-z-index': node.getAttribute('data-z-index'),
+          
+          transform: node.getAttribute('transform'),
+          x: "0 30 50 70 90",
+          y: "0",
+          fontSize: 6,
+          opacity: '1',
+          
+          //fontSize: node.getAttribute('font-size'),
+          fill: node.getAttribute("fill"),
+          stroke: node.getAttribute("stroke"),
+         // letterSpacing: 2,
         }
+        //let fs = `${Math.floor(Number(node.getAttribute('font-size'))+5)}`;
+    
+        console.log(JSON.stringify(node.textContent).replace(/\r\n|\n\r|\n|\r/g, ''));
+        
+
+        return (<Text {...componentProps} style={{letterSpacing: '.125em', fontSize: '2em'}}>{node.textContent}</Text>)
+        /*return null;
+        //break;
+        //console.log(node.textContent, '0--------------------------')*/
+    case "PATH":
+          Component = Path
+          componentProps = {
+            'data-z-index': node.getAttribute('data-z-index'),
+            d: node.getAttribute('d'),
+            fill: node.getAttribute('fill'),
+            opacity: node.getAttribute('opacity'),
+            transform: node.getAttribute('transform'),
+            stroke: node.getAttribute('stroke'),
+            strokeWidth: node.getAttribute('stroke-width'),
+          }
         break;
     case "TSPAN":
-        return null;
-       /* componentProps = {
-            x: parseIntAttributes(node.getAttribute("x")),
-            y: parseIntAttributes(node.getAttribute("y")),
-            fill: node.getAttribute("fill"),
-            stroke: node.getAttribute("stroke"),
-            "stroke-width": node.getAttribute("stroke-width"),
-            "stroke-linejoin": node.getAttribute("stroke-linejoin"),
-            opacity: parseIntAttributes(node.getAttribute('opacity')),
-            visibility: node.getAttribute('visibility'),
-            fontWeight: node.getAttribute('fontWeight'),
-            children: node.textContent,
-        }
-        Component = React.Fragment*/
-        break;
+     return null
     case "DESC":
         return null;
     case "STYLE": 
@@ -148,6 +151,11 @@ function renderNode(node) {
     )
 }
 
+const styles = StyleSheet.create({
+  page: { fontFamily: 'GOST_type_A', letterSpacing: 2},
+ 
+});
+
 function SchemeSvgReal({onSvgRendered}) {
     
     const [isSvgRendered, setIsSvgRendered] = React.useState(false);
@@ -160,7 +168,7 @@ function SchemeSvgReal({onSvgRendered}) {
         <div className='svg-container max-w-6xl'>
             
             <ReactSVG  
-                src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn.svg" 
+                src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn-new2001.svg" 
                 afterInjection={(svg) => {
                     //console.log(svg.tagName);
                     //onSvgRendered(svg);
@@ -171,16 +179,16 @@ function SchemeSvgReal({onSvgRendered}) {
             <div className='flex flex-col p-[0.02%]'>
             {isSvgRendered &&  
             <>
-                <PDFViewer>
+             <PDFViewer>
                     <Document>
-                        <Page size="A4">
-                            {renderNode(document.querySelector('.svg-container svg'))}    
+                        <Page size="A4"  style={styles.page}> {/*orientation='landscape'*/}
+                           {renderNode(document.querySelector('.svg-container svg'))}   
                         </Page>
                     </Document>
-                </PDFViewer>
+                </PDFViewer>   
                     <div className='my-20'>
-               
-                </div>
+                {/* {renderNode(document.querySelector('.svg-container svg'))}  */}
+                   </div>
                 </>
             }
             </div>        
