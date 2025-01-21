@@ -13,9 +13,9 @@ const rows = [
   createData('Gingerbread', 356, 16.0, 49, 3.9),
 ];
 
-export default function SpecTable({specificationList}) {
+export default function SpecTable({specificationList, className}) {
   return (
-    <Table borderAxis="both" border>
+    <Table borderAxis="both" className={className} border>
       <thead>
         <tr>
           <th style={{ width: '50px' }}>Поз. (Id)</th>

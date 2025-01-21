@@ -8,12 +8,13 @@ import Button from '@mui/joy/Button';
 import IconButton from '@mui/joy/IconButton';
 import Typography from '@mui/joy/Typography';
 
-function Ingred({name, image, specification, price, _id, onButtonSpecClick, viewing}) {
+function Ingred({name, imageView, specification, schemeUrl, price, id, onButtonSpecClick, viewing}) {
 
     const handleSpecButtonClick = () => {
         return onButtonSpecClick({
-            _id: _id,
+            id: id,
             specification: specification,
+            schemeUrl: schemeUrl,
         });
     }
 
@@ -22,7 +23,7 @@ function Ingred({name, image, specification, price, _id, onButtonSpecClick, view
             <Card className='max-w-xs w-full' color='neutral'   variant="soft" >
                 <CardOverflow>
                     <AspectRatio ratio="2">
-                        <img src={image}
+                        <img src={imageView}
                             loading="lazy"
                             alt=""
                         />
@@ -36,7 +37,7 @@ function Ingred({name, image, specification, price, _id, onButtonSpecClick, view
                     </Typography>
                 </CardContent>
                 <CardActions buttonFlex="0 1 120px">
-                    <Button variant={viewing?._id===_id ? 'solid' : 'outlined'} color={viewing?._id===_id ? 'primary' : 'neutral'} onClick={handleSpecButtonClick} > 
+                    <Button variant={viewing?.id===id ? 'solid' : 'outlined'} color={viewing?.id===id ? 'primary' : 'neutral'} onClick={handleSpecButtonClick} > 
                         Спецификация
                     </Button>
                     <IconButton variant="outlined" color="neutral" sx={{ mr: 'auto' }}>

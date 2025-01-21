@@ -7,6 +7,7 @@ import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs'
 import html2canvas from 'html2canvas';
 
 import fontSource from '../../vendor/GOST_type_A.woff';
+import { CircularProgress } from '@mui/joy';
 Font.register({ family: 'GOST_type_A', src: fontSource });
 
 function renderNode(node) {
@@ -78,7 +79,7 @@ function renderNode(node) {
         }
         //let fs = `${Math.floor(Number(node.getAttribute('font-size'))+5)}`;
     
-        console.log(JSON.stringify(node.textContent).replace(/\r\n|\n\r|\n|\r/g, ''));
+        //console.log(JSON.stringify(node.textContent).replace(/\r\n|\n\r|\n|\r/g, ''));
         
 
         return (<Text {...componentProps} style={{letterSpacing: '.125em', fontSize: '2em'}}>{node.textContent}</Text>)
@@ -138,7 +139,7 @@ function renderNode(node) {
     }
 
     if(node.children) {
-        console.log('МЫ в дочерних элементах')
+        //console.log('МЫ в дочерних элементах')
         return (
             <Component {...componentProps} >
                 {Array.from(node.children).map(renderNode)}
@@ -156,19 +157,21 @@ const styles = StyleSheet.create({
  
 });
 
-function SchemeSvgReal({onSvgRendered}) {
+function SchemeSvgReal({onSvgRendered, schemeUrl}) {
     
     const [isSvgRendered, setIsSvgRendered] = React.useState(false);
+    
     const [isCanvasReady, setIsCanvasReady] = React.useState(false);
 
  
     return (
         <>
-        
+        { !isSvgRendered && <CircularProgress /> }
         <div className='svg-container max-w-6xl'>
             
             <ReactSVG  
-                src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn-new2001.svg" 
+                //src="http://postatic.utermo.ru.website.yandexcloud.net/schemesSvg/gvs-odn-new2001.svg" 
+                src={schemeUrl}
                 afterInjection={(svg) => {
                     //console.log(svg.tagName);
                     //onSvgRendered(svg);
@@ -183,6 +186,7 @@ function SchemeSvgReal({onSvgRendered}) {
                     <Document>
                         <Page size="A4"  style={styles.page}> {/*orientation='landscape'*/}
                            {renderNode(document.querySelector('.svg-container svg'))}   
+                           
                         </Page>
                     </Document>
                 </PDFViewer>   

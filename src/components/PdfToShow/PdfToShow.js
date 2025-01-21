@@ -32,7 +32,7 @@ const borderColor = '#0f0f0f'
 const styles2 = StyleSheet.create({
     row: {
         flexDirection: 'row',
-        borderBottomColor: '#0f0f0f',
+        borderColor: '#0f0f0f',
         borderBottomWidth: 1,
         alignItems: 'center',
         height: 25,
@@ -97,10 +97,12 @@ const PdfToShow = ({id, specData}) => (
     </Page>}
     <Page size="A4" style={styles.page}>
         <View style={styles.section}>
+        <Svg width="200" height="200" viewBox="-100 -100 200 250">
             <Text>{id}</Text>
+            </Svg>
             <Text children="23423423" />
-            {specData.map(item => (
-                 <View style={styles2.row} key={item.id.toString()}>
+            {specData.map((item, index) => (
+                 <View style={index !== 0 ? styles2.row: ({...styles2.row, borderTop:1}) } key={item.id.toString()}>
                     <Text style={styles2.qty}>{item.id}</Text>
                     <Text style={styles2.description}>{item.name}</Text>
                     <Text style={styles2.qty}>{item.quantity}</Text>

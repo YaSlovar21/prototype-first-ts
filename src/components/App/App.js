@@ -6,7 +6,6 @@ import AppAside from '../AppAside/AppAside';
 import Ingred from '../Ingred/Ingred';
 import Typography from '@mui/joy/Typography';
 import { useMemo } from 'react';
-import btpIngreds from '../../utils/data';
 import SpecTable from '../SpecTable/SpecTable';
 
 import Tabs from '@mui/joy/Tabs';
@@ -26,17 +25,35 @@ import SchemeSvgReal from '../SchemeSvgReal/SchemeSvgReal';
 function App() {
   const [selectedIngreds, setSelectedIngreds] = React.useState([]); 
   const [viewedIngr, setViewedIngr] = React.useState(null);
-  
-  const ingredsSo = useMemo(()=> btpIngreds.filter(i => i.type === 'so'));
-  const ingredsGvs = useMemo(()=> btpIngreds.filter(i => i.type === 'gvs'));
-  const ingredsUvuu = useMemo(()=> btpIngreds.filter(i => i.type === 'uvuu'));
+  const [ingreds, setIngreds] = React.useState([]);
+
+  const ingredsSo = useMemo(()=> ingreds?.filter(i => i.type === 'so'), [ingreds]);
+  const ingredsGvs = useMemo(()=> ingreds?.filter(i => i.type === 'gvs'), [ingreds]);
+  const ingredsUvuu = useMemo(()=> ingreds?.filter(i => i.type === 'uv'), [ingreds]);
 
   const [nodeSvg, setNodeSvg] = React.useState(null)
 
-
+  React.useEffect(()=> {
+    fetch('https://functions.yandexcloud.net/d4ebl4hgnv1ngv9959o4').
+      then(resp => {
+        return resp.json()
+      }).
+      then(resp => {
+        const ingreds = resp.map(i=> ({
+          ...i, 
+          specification: JSON.parse(i.specification),
+          schemeUrl: `http://postatic.utermo.ru.website.yandexcloud.net/schemesSvg/${i.schemeUrl}`,
+          imageView: `http://postatic.utermo.ru.website.yandexcloud.net/miniviews/${i.imageView}`
+        }));
+        console.log(ingreds);
+        setIngreds(ingreds);
+      })
+  }, [])
 
   return (
-    <div className={styles.App}>
+   
+      <div className={styles.App}>
+
       <AppAside />
       <main className={`${styles.content} flex`}>
         <div className={styles.uzli}>
@@ -71,20 +88,22 @@ function App() {
         </div>
 
       </main>
-      <div className={`basis-1/2 ${styles.content} w-full py-12`}>
+      <div className={`${styles.content} w-full py-12`}>
           {/*<SchemeSvg onSvgRendered={setNodeSvg} />*/}
 
-          <SchemeSvgReal />
+          <SchemeSvgReal  id={viewedIngr?.id} schemeUrl={viewedIngr?.schemeUrl} />
 
-          <SpecTable specificationList={viewedIngr?.specification} />
-
-          {viewedIngr && 
-            <PDFViewer className='w-full h-full'>
-                <PdfToShow id={viewedIngr._id} specData={viewedIngr.specification} />             
-            </PDFViewer> 
-          }
-        </div>
+          <div className='flex'>
+            <SpecTable className='basis-1/2' specificationList={viewedIngr?.specification} />
+            {viewedIngr && 
+              <PDFViewer className='w-full basis-1/2'>
+                  <PdfToShow id={viewedIngr._id} specData={viewedIngr.specification} />             
+              </PDFViewer> 
+            }
+          </div>
+      </div>
     </div>
+    
   );
 }
 
