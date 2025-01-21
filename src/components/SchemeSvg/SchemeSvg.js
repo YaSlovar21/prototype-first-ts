@@ -163,7 +163,6 @@ function SchemeSvg({onSvgRendered}) {
     return (
         <div className='svg-container w-full '>
             <ReactSVG  
-                
                 src="http://postatic.utermo.ru.website.yandexcloud.net/gvs-odn-new2001.svg" 
                 afterInjection={(svg) => {
                     //console.log(svg.tagName);

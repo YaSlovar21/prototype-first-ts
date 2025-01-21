@@ -27,6 +27,5 @@ export const formatStringToCamelCase = (str) => {
 export function parseIntAttributes(attr) {
     if (!attr) return null;
     if (attr.includes('px')) return attr;
-  
     return Number(attr);
-  }
+}

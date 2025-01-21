@@ -8,7 +8,7 @@ import Button from '@mui/joy/Button';
 import IconButton from '@mui/joy/IconButton';
 import Typography from '@mui/joy/Typography';
 
-function Ingred({name, imageView, specification, schemeUrl, price, id, onButtonSpecClick, viewing}) {
+function Ingred({name, imageView, desc, specification, schemeUrl, price, id, onButtonSpecClick, viewing}) {
 
     const handleSpecButtonClick = () => {
         return onButtonSpecClick({
@@ -32,8 +32,7 @@ function Ingred({name, imageView, specification, schemeUrl, price, id, onButtonS
                 <CardContent>
                     <Typography level="title-lg">{name}</Typography>
                     <Typography level="body-sm">
-                    We are a community of developers prepping for coding interviews,
-                    participate, chat with others and get better at interviewing.
+                        {desc}
                     </Typography>
                 </CardContent>
                 <CardActions buttonFlex="0 1 120px">
