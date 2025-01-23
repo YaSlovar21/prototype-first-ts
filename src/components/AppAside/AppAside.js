@@ -1,36 +1,38 @@
 import React from 'react';
 import { Button } from '@headlessui/react'
-import {
-    Svg,
-    Polygon,
-    Rect,
-    Page,
-    Text,
-    Document,
-    StyleSheet,
-    View,
-    Font, 
-  } from '@react-pdf/renderer';
-import cn from './AppAside.module.css';
 
-import List from '@mui/joy/List';
-import ListItem from '@mui/joy/ListItem';
-import ListItemDecorator from '@mui/joy/ListItemDecorator';
-import ListItemButton from '@mui/joy/ListItemButton';
-const ExampleSvg = () => (
-    <Svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="-100 -100 200 250">
-      <Polygon points="0,0 80,120 -80,120" fill="#234236" />
-      <Polygon points="0,-40 60,60 -60,60" fill="#0C5C4C" />
-      <Polygon points="0,-80 40,0 -40,0" fill="#38755B" />
-      <Rect x="-20" y="120" width="40" height="30" fill="#A32B2D" />
-    </Svg>
-  );
+import cn from './AppAside.module.css';
+import { List, ListItem, ListItemButton, ListItemDecorator } from '@mui/joy';
+import { NavLink } from 'react-router-dom';
+import { ROUTES } from '../../utils/constants';
+
+function classNameActive(isActive) {
+    return `${ !isActive ?  cn.aside__menubutton : `${cn.aside__menubutton} ${cn.aside__menubutton_active}`}`;
+}
+
 function AppAside() {
     return (
         <aside className={cn.aside}>
-          
-            <p children="234234" />
-            <Button className={cn.aside__button}>
+            <nav>
+                <NavLink to={ROUTES.home}  className={({isActive})=> classNameActive(isActive) } >
+                    <span className={cn.aside__buttondec}>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                    </span>
+                    Главная
+                </NavLink>
+                <NavLink to={ROUTES.catalog} className={({isActive})=> classNameActive(isActive) } >
+                    <span className={cn.aside__buttondec}></span>
+                    Каталог
+                </NavLink>
+            </nav>
+            <Button className={cn.aside__menubutton}> 
+                <span className={cn.aside__buttondec}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </span>
                 Добавить узел
             </Button>
         </aside>

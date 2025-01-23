@@ -1,7 +1,20 @@
 .aside {
-    @apply w-96 h-full fixed top-0 left-0 bg-slate-900 flex flex-col items-center py-20;
+    @apply w-80 px-10 h-full fixed top-0 left-0 bg-slate-900 flex flex-col items-stretch justify-between py-20;
+}
+
+.aside__menubutton {
+    @apply bg-none text-xl rounded-md text-gray-200 p-3 items-center flex;
+}
+
+.aside__menubutton_active {
+    @apply bg-slate-700 text-gray-200;
+}
+
+.aside__buttondec {
+    @apply w-6 h-6 mr-4 inline-flex items-center justify-start;
 }
 
 .aside__button {
     @apply inline-flex items-center gap-2 rounded-md bg-gray-700 py-3 px-6 text-xl/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white;
 }
+
