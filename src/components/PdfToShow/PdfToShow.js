@@ -33,7 +33,7 @@ const styles2 = StyleSheet.create({
     row: {
         flexDirection: 'row',
         borderColor: '#0f0f0f',
-        borderBottomWidth: 1,
+        borderBottomWidth: 0,//1,
         alignItems: 'center',
         height: 25,
        
@@ -42,14 +42,14 @@ const styles2 = StyleSheet.create({
         width: '60%',
         textAlign: 'left',
         borderRightColor: borderColor,
-        borderRightWidth: 1,
+        borderRightWidth: 0,//1,
         paddingLeft: 8,
         height: '100%',
     },
     qty: {
         width: '10%',
         borderRightColor: borderColor,
-        borderRightWidth: 1,
+        borderRightWidth: 0,//1,
         textAlign: 'right',
         paddingRight: 8,
         height: '100%',
@@ -57,7 +57,7 @@ const styles2 = StyleSheet.create({
     rate: {
         width: '15%',
         borderRightColor: borderColor,
-        borderRightWidth: 1,
+        borderRightWidth: 0,//1,
         textAlign: 'right',
         paddingRight: 8,
         height: '100%',
@@ -107,7 +107,6 @@ const PdfToShow = ({id, specData}) => (
                     <Text style={styles2.description}>{item.name}</Text>
                     <Text style={styles2.qty}>{item.quantity}</Text>
                     <Text style={styles.rate}>{item.category}</Text>
-                    
                 </View>
             ))}
 

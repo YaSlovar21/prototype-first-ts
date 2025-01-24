@@ -4,6 +4,8 @@ import { ReactSVG } from 'react-svg';
 import { Text, Svg, Rect, G, ClipPath, Defs, Path, Tspan, Polyline,Line , Polygon, PDFViewer, Page, Document, Canvas, Image, Font, StyleSheet } from '@react-pdf/renderer';
 import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs';
 
+import cn from './SchemeSvgReal.module.css';
+
 import html2canvas from 'html2canvas';
 
 import fontSource from '../../vendor/GOST_type_A.woff';
@@ -167,7 +169,7 @@ function SchemeSvgReal({onSvgRendered, schemeUrl}) {
     return (
         <>
         { !isSvgRendered && <CircularProgress /> }
-        <div className='svg-container max-w-6xl'>
+        <div className={`svg-container max-w-6xl ${cn.svgcontproto}`}>
             
             <ReactSVG  
                 //src="http://postatic.utermo.ru.website.yandexcloud.net/schemesSvg/gvs-odn-new2001.svg" 
