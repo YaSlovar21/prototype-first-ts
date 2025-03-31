@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "idTemplate": "{{n}}",
+        "name": "Кран шаровый, стандартнопроходной, фланцевый, PN16, DN",
+        "quantity": 4,
+        "categoryId": null
+    },
+    {
+        "id": "2",
+        "idTemplate": "{{n}}",
+        "name": "Фильтр сетчатый, фланцевый, PN16, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "3",
+        "idTemplate": "{{n}}",
+        "name": "Биметаллический термометр с гильзой, шкала 0-160°С",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "4",
+        "idTemplate": "{{n}}",
+        "name": "Манометр, шкала 0-16 бар",
+        "quantity": 11,
+        "categoryId": null
+    },
+    {
+        "id": "5",
+        "idTemplate": "{{n}}",
+        "name": "Кран для подключения манометра, PN16, DN15",
+        "quantity": 11,
+        "categoryId": null
+    },
+    {
+        "id": "6",
+        "idTemplate": "{{n}}",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 5,
+        "categoryId": null
+    },
+    {
+        "id": "7",
+        "idTemplate": "{{n}}",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 4,
+        "categoryId": null
+    },
+    {
+        "id": "8",
+        "idTemplate": "{{n}}",
+        "name": "Кран шаровый, муфтовый, с дренажем и воздухоотвод-ом, латунь, DN15",
+        "quantity": 4,
+        "categoryId": null
+    },
+    {
+        "id": "9",
+        "idTemplate": "{{n}}",
+        "name": "Расходомер PN16, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "10",
+        "idTemplate": "{{n}}",
+        "name": "Тепловычислитель (в комплекте с GSM модемом)",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "id": "11",
+        "idTemplate": "{{n}}",
+        "name": "Комплект термопреобразователей сопротивления (0…180°C)",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "id": "12",
+        "idTemplate": "{{n}}",
+        "name": "Защитная гильза",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "13",
+        "idTemplate": "{{n}}",
+        "name": "Грязевик абонентский, PN10, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "14",
+        "idTemplate": "{{n}}",
+        "name": "Датчик давления, 4-20мА, (0-16МПа)",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "15",
+        "idTemplate": "{{n}}",
+        "name": "Расходомер, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "id": "16",
+        "idTemplate": "{{n}}",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "id": "17",
+        "idTemplate": "{{n}}",
+        "name": "Фильтр сетчатый, муфтовый, латунь, PN25, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "id": "18",
+        "idTemplate": "{{n}}",
+        "name": "Регулятор перепада давления",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "id": "19",
+        "idTemplate": "{{n}}",
+        "name": "Воздухоотводчик автоматический, PN10",
+        "quantity": 2,
+        "categoryId": null
+    }
+]

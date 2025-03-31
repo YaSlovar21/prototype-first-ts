@@ -1,0 +1,184 @@
+[
+    {
+        "idTemplate": "{{n}}",
+        "id": "1",
+        "name": "Пластинчатый теплообменник {{ptoName}} расчёт № {{raschetNumber}}",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "2",
+        "name": "Насос циркуляционный (H={{nasosH}} м; G={{nasosRashod}} м3/ч)",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "3",
+        "name": "Двухходовой регулирующий клапан (с электроприводом), Kvs=, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "4",
+        "name": "Фильтр сетчатый, муфтовый, латунь, PN25, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "5",
+        "name": "Клапан обратный, муфтовый, латунь, PN25, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "6",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 5,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "7",
+        "name": "Фильтр сетчатый, муфтовый, латунь, PN25, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "8",
+        "name": "Клапан обратный, муфтовый, латунь, PN25, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "9",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "10",
+        "name": "Кран шаровый, стандартнопроходной, фланцевый, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "11",
+        "name": "Манометр, шкала 0-16 бар",
+        "quantity": 14,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "12",
+        "name": "Кран для подключения манометра, PN16, DN15",
+        "quantity": 14,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "13",
+        "name": "Счетчик холодной воды, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "14",
+        "name": "Реле перепада давления",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "15",
+        "name": "Биметаллический термометр с гильзой, шкала 0-160°С",
+        "quantity": 6,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "16",
+        "name": "Датчик температуры",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "17",
+        "name": "Защитная гильза",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "18",
+        "name": "Кран шаровый, стандартнопроходной, фланцевый, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "19",
+        "name": "Кран шаровый, стандартнопроходной, фланцевый, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "20",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 6,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "21",
+        "name": "Кран шаровый, муфтовый, латунь, PN25, DN",
+        "quantity": 2,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "22",
+        "name": "Клапан предохранительный, Pсраб=1,0-12,0 бар",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "23",
+        "name": "Клапан балансировочный, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "24",
+        "name": "Реле давления (0,3 МПа)",
+        "quantity": 1,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "25",
+        "name": "Кран шаровый, муфтовый, с дренажем и воздухоотвод-ом, латунь, DN15",
+        "quantity": 3,
+        "categoryId": null
+    },
+    {
+        "idTemplate": "{{n}}",
+        "id": "26",
+        "name": "Кран шаровой стандартнопроходной Regula, PN16, DN",
+        "quantity": 1,
+        "categoryId": null
+    }
+]

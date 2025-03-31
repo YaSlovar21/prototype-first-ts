@@ -87,9 +87,9 @@ const componentProps = {
   'data-z-index': node.getAttribute('data-z-index'),*/
 }
 
-const PdfToShow = ({id, specData}) => (
+const PdfToShow = ({ specData}) => (
   <Document>
-    {<Page size="A3">
+    {<Page size="A2" >
         Здесь будет SVG из DOM
         <Svg width="200" height="200" viewBox="-100 -100 200 250">
           <Text {...componentProps}>123123</Text>
@@ -97,24 +97,36 @@ const PdfToShow = ({id, specData}) => (
     </Page>}
     <Page size="A4" style={styles.page}>
         <View style={styles.section}>
-        <Svg width="200" height="200" viewBox="-100 -100 200 250">
-            <Text>{id}</Text>
-            </Svg>
             <Text children="23423423" />
-            {specData.map((item, index) => (
-                 <View style={index !== 0 ? styles2.row: ({...styles2.row, borderTop:1}) } key={item.id.toString()}>
-                    <Text style={styles2.qty}>{item.id}</Text>
+            {specData.slice(0,22).map((item, index) => (
+                 <View style={index !== 0 ? styles2.row: ({...styles2.row, borderTop:1}) } key={item.idTemplate.toString()}>
+                    <Text style={styles2.qty}>{item.idTemplate}</Text>
                     <Text style={styles2.description}>{item.name}</Text>
                     <Text style={styles2.qty}>{item.quantity}</Text>
                     <Text style={styles.rate}>{item.category}</Text>
                 </View>
             ))}
-
             <View style={styles.footer}>
             </View>
         </View>
-        
     </Page>
+    {specData.length > 22 &&
+      <Page size="A4" style={styles.page}>
+      <View style={styles.section}>
+          <Text children="23423423" />
+          {specData.slice(22,44).map((item, index) => (
+               <View style={index !== 0 ? styles2.row: ({...styles2.row, borderTop:1}) } key={item.idTemplate.toString()}>
+                  <Text style={styles2.qty}>{item.idTemplate}</Text>
+                  <Text style={styles2.description}>{item.name}</Text>
+                  <Text style={styles2.qty}>{item.quantity}</Text>
+                  <Text style={styles.rate}>{item.category}</Text>
+              </View>
+          ))}
+          <View style={styles.footer}>
+          </View>
+      </View>
+    </Page>
+    }
   </Document>
 );
 

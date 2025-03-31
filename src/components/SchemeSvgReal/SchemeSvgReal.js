@@ -156,7 +156,6 @@ function renderNode(node) {
 
 const styles = StyleSheet.create({
   page: { fontFamily: 'GOST_type_A', letterSpacing: 2},
- 
 });
 
 function SchemeSvgReal({onSvgRendered, schemeUrl}) {

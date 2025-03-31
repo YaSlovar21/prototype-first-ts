@@ -1,0 +1,474 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157.6mm" height="72.3mm" viewBox="0 0 446.8 205">
+  <defs>
+    <clipPath id="a" transform="translate(-207.2 -185.6)">
+      <polyline points="0 595.2 841.8 595.2 841.8 0 0 0 0 595.2" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>uv-a2</title>
+  <g clip-path="url(#a)">
+    <g>
+      <line x1="30.2" y1="165.9" x2="176.2" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="179.5" y1="165.9" x2="183.5" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="158.9" y1="165.9" x2="176.2" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="179.5" y1="165.9" x2="183.5" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="30.2" y1="165.9" x2="55.9" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="194.2" y1="165.9" x2="197.9" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polyline points="30.2 97.6 49.9 97.6 92.9 97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="103.5" y1="97.6" x2="149.9" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="160.1" y1="97.6" x2="226.7" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="230" y1="97.6" x2="234.1" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="244.7" y1="97.6" x2="248.8" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="252.1" y1="97.6" x2="332.1" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="335.2" y1="97.6" x2="339.7" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="344.7" y1="97.6" x2="344.7" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="349.9" y1="97.6" x2="354.2" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="357.3" y1="97.6" x2="417.7" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="304.1" y1="97.6" x2="304.1" y2="104.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="304.1" y1="114.8" x2="304.1" y2="121.1" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="273.2" y1="97.6" x2="273.2" y2="90.7" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="273.2" y1="80.5" x2="273.2" y2="74.2" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polygon points="273.2 69.1 275.7 74.2 270.7 74.2 273.2 69.1" fill="red"/>
+      <polygon points="273.2 69.1 275.7 74.2 270.7 74.2 273.2 69.1" fill="none"/>
+      <polyline points="275.7 74.2 273.2 69.1 270.7 74.2 275.7 74.2" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="422.7" y1="97.6" x2="422.7" y2="97.6" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="372.1" y1="97.6" x2="372.1" y2="90.7" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="239.5" y1="92.3" x2="239.5" y2="88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="84.4" x2="239.5" y2="80.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="77.3" x2="239.5" y2="73.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="70.3" x2="239.5" y2="66.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="63.2" x2="239.5" y2="59.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="56.1" x2="239.5" y2="52.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="239.5" y1="49" x2="239.5" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="286.3" y1="70.5" x2="286.3" y2="66.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="286.3" y1="62.9" x2="286.3" y2="59.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="286.3" y1="55.7" x2="286.3" y2="52.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="286.3" y1="48.7" x2="286.3" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="138.8" x2="158.9" y2="136" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="132.4" x2="158.9" y2="128.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="125.3" x2="158.9" y2="121.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="118.3" x2="158.9" y2="114.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="111.2" x2="158.9" y2="107.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="104.1" x2="158.9" y2="100.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="97" x2="158.9" y2="93.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="89.9" x2="158.9" y2="86.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="82.9" x2="158.9" y2="79.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="75.8" x2="158.9" y2="72.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="68.7" x2="158.9" y2="65.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="61.6" x2="158.9" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="54.5" x2="158.9" y2="50.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="158.9" y1="47.5" x2="158.9" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="160.6" x2="188.9" y2="157.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="154" x2="188.9" y2="150.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="146.9" x2="188.9" y2="143.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="139.9" x2="188.9" y2="136.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="132.7" x2="188.9" y2="129.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="125.6" x2="188.9" y2="122.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="118.5" x2="188.9" y2="115" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="111.4" x2="188.9" y2="107.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="104.3" x2="188.9" y2="100.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="97.3" x2="188.9" y2="93.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="90.2" x2="188.9" y2="86.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="83.1" x2="188.9" y2="79.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="76" x2="188.9" y2="72.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="68.9" x2="188.9" y2="65.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="61.9" x2="188.9" y2="58.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="54.8" x2="188.9" y2="51.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="188.9" y1="47.7" x2="188.9" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+    </g>
+  </g>
+  <g clip-path="url(#a)">
+    <g style="isolation: isolate">
+      <text transform="translate(16.9 81.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.1</text>
+    </g>
+  </g>
+  <g clip-path="url(#a)">
+    <g>
+      <polyline points="25.1 97.6 25.1 82.3 23.6 82.3 17.5 82.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(33.9 128.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="49.9 138.7 49.9 129.4 47.9 129.4 34.5 129.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(72.7 62.7)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.3</text>
+      </g>
+      <polyline points="70 70.4 70 63.9 73.3 63.9 80.6 63.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(72.3 128.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.3</text>
+      </g>
+      <polyline points="70 138.7 70 129.4 72.9 129.4 80.1 129.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(171.3 8.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.10</text>
+      </g>
+      <polyline points="183.4 9.4 182 9.4 171.9 9.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(100.9 85.6)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.7,16</text>
+      </g>
+      <polyline points="98.2 86.7 100 86.8 101.3 86.8 117.1 86.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(108.3 113.8)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.6</text>
+      </g>
+      <polyline points="98.2 114.9 102.9 114.9 108.9 114.9 116.1 114.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(78.4 112.9)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.13</text>
+      </g>
+      <polyline points="95 105.4 95 113.9 89 113.9 78.9 113.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(115 60.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="131.8 70.4 131.8 61.3 129.1 61.3 115.6 61.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(160.5 60.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="176.9 70.4 176.9 61.3 174.5 61.3 161.1 61.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(144.9 111.2)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.2</text>
+      </g>
+      <polyline points="155 102.8 155 112.3 152.8 112.3 145.5 112.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(285.1 108.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.6</text>
+      </g>
+      <polyline points="304.1 109.7 298.5 109.7 293 109.7 285.7 109.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(191.6 179.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.9</text>
+      </g>
+      <polyline points="188.9 171.2 188.9 180.3 192.1 180.3 199.4 180.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(227.8 114.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.9</text>
+      </g>
+      <polyline points="239.5 103 239.5 115.7 235.6 115.7 228.4 115.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(257.6 84.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.7</text>
+      </g>
+      <polyline points="273.2 85.6 272.1 85.6 265.5 85.6 258.2 85.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(17 147.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.1</text>
+      </g>
+      <polyline points="25.1 165.9 25.3 148.6 23.7 148.6 17.6 148.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(423.7 81.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.1</text>
+      </g>
+      <polyline points="422.7 97.6 422.6 82.3 424.3 82.3 430.4 82.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(33.4 60.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="49.3 70.4 49.3 61.3 47.5 61.3 34 61.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="200" y1="70.4" x2="200" y2="66.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="200" y1="62.8" x2="200" y2="59.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="200" y1="55.7" x2="200" y2="52.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="200" y1="48.7" x2="200" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="138.7" x2="141.8" y2="135.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="132.4" x2="141.8" y2="128.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="125.3" x2="141.8" y2="121.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="118.3" x2="141.8" y2="114.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="111.2" x2="141.8" y2="107.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="104.1" x2="141.8" y2="100.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="96.9" x2="141.8" y2="93.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="89.8" x2="141.8" y2="86.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="82.7" x2="141.8" y2="79.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="75.7" x2="141.8" y2="72.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="68.6" x2="141.8" y2="65.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="61.5" x2="141.8" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="54.4" x2="141.8" y2="50.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="141.8" y1="47.3" x2="141.8" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(201.4 59.9)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.14,8</text>
+      </g>
+      <polyline points="200 70.4 200 61 201.9 61 218.8 61" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(122.5 130.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.14,8</text>
+      </g>
+      <polyline points="141.8 138.7 141.8 131.3 139.9 131.3 123.1 131.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="286.3" y1="44.7" x2="283.1" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="279.5" y1="44.7" x2="276.1" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="272.5" y1="44.7" x2="269" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="265.4" y1="44.7" x2="261.9" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="258.3" y1="44.7" x2="254.8" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="251.2" y1="44.7" x2="247.7" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="244.1" y1="44.7" x2="240.7" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="237.1" y1="44.7" x2="233.6" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="230" y1="44.7" x2="226.4" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="222.9" y1="44.7" x2="219.3" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="215.8" y1="44.7" x2="212.2" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="208.7" y1="44.7" x2="205.1" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="201.7" y1="44.7" x2="198.1" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="194.6" y1="44.7" x2="191" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="187.5" y1="44.7" x2="183.9" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="180.4" y1="44.7" x2="176.8" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="173.3" y1="44.7" x2="169.7" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="166.3" y1="44.7" x2="162.7" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="159.2" y1="44.7" x2="155.6" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="152" y1="44.7" x2="148.5" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="144.9" y1="44.7" x2="141.8" y2="44.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="214" y1="44.7" x2="214" y2="40.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="214" y1="36.8" x2="214" y2="33.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="214" y1="29.7" x2="214" y2="26.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="214" y1="22.6" x2="214" y2="18.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(288.9 59.9)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.11,12</text>
+      </g>
+      <polyline points="286.3 70.4 286.4 61.1 289.5 61.1 306.9 61.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(161.6 128.2)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.11,12</text>
+      </g>
+      <polyline points="158.9 138.7 159.1 129.3 162.2 129.3 179.6 129.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(331.7 74)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.15</text>
+      </g>
+      <polyline points="344.7 86.6 344.7 75.2 342.4 75.2 332.3 75.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(377.5 84.4)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.8</text>
+      </g>
+      <polyline points="372.1 85.5 377 85.5 377.9 85.6 385.9 85.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(378.3 60.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="395.6 70.4 395.6 61.1 392.3 61.1 378.9 61.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(325.4 60.1)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="323.7 70.4 323.7 61.1 326 61.1 339.4 61.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <polyline points="30.2 100.1 25.1 97.6 30.2 95.1 30.2 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="20 100.1 25.1 97.6 20 95.1 20 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="49.9" y1="97.6" x2="49.9" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="49.9" y1="86.1" x2="49.9" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M262.4,261.3a5.2,5.2,0,0,0-5.3-5.3,5.3,5.3,0,0,0-5.3,5.3,5.3,5.3,0,0,0,5.3,5.3,5.3,5.3,0,0,0,5.3-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="48.2 92.6 49.9 89.3 51.4 92.6 48.2 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="48.2 86.1 49.9 89.3 51.4 86.1 48.2 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="46.6 90.9 49.9 89.3 46.6 87.8 46.6 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(46.5 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <polyline points="70 97.6 70 92.6 70 81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M282.6,261.3a5.4,5.4,0,0,0-10.7,0,5.4,5.4,0,0,0,10.7,0" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(66.7 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate"><tspan letter-spacing="-0.04em">T</tspan><tspan x="3.1" y="0">G</tspan></text>
+      </g>
+      <line x1="92.9" y1="92.3" x2="103.5" y2="92.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="92.9 103 98.2 109.4 103.5 103" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="96.7 89.9 98.2 86.7 99.8 89.9 96.7 89.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="96.7 83.6 98.2 86.7 99.8 83.6 96.7 83.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="98.2" y1="92.3" x2="98.2" y2="89.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="98.2" y1="83.6" x2="98.2" y2="79" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="96.7 79 98.2 75.8 99.8 79 96.7 79" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="99.8 111.8 98.2 114.9 96.7 111.8 99.8 111.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="99.8 118.1 98.2 114.9 96.7 118.1 99.8 118.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="98.2" y1="109.4" x2="98.2" y2="111.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="98.2" y1="118.1" x2="98.2" y2="122.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="99.8 122.7 98.2 125.9 96.7 122.7 99.8 122.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="131.8" y1="97.6" x2="131.8" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="131.8" y1="86.1" x2="131.8" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M344.4,261.3a5.4,5.4,0,0,0-10.7,0,5.4,5.4,0,0,0,10.7,0" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="130.3 92.6 131.8 89.3 133.4 92.6 130.3 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="130.3 86.1 131.8 89.3 133.4 86.1 130.3 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="128.6 90.9 131.8 89.3 128.6 87.8 128.6 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(128.6 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <line x1="92.9" y1="103" x2="92.9" y2="92.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="103.5" y1="92.3" x2="103.5" y2="103" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="176.9" y1="97.6" x2="176.9" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="176.9" y1="86.1" x2="176.9" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M389.5,261.3a5.4,5.4,0,0,0-10.7,0,5.4,5.4,0,0,0,10.7,0" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="175.4 92.6 176.9 89.3 178.5 92.6 175.4 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="175.4 86.1 176.9 89.3 178.5 86.1 175.4 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="173.8 90.9 176.9 89.3 173.8 87.8 173.8 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(173.7 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <line x1="49.9" y1="165.9" x2="49.9" y2="160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="49.9" y1="154.4" x2="49.9" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M262.4,329.5a5.3,5.3,0,0,0-5.3-5.4,5.4,5.4,0,0,0,0,10.7,5.3,5.3,0,0,0,5.3-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="48.2 160.7 49.9 157.6 51.4 160.7 48.2 160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="48.2 154.4 49.9 157.6 51.4 154.4 48.2 154.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="46.6 159.2 49.9 157.6 46.6 155.9 46.6 159.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(46.5 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <line x1="70" y1="165.9" x2="70" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M282.6,329.5a5.4,5.4,0,1,0-5.3,5.3,5.4,5.4,0,0,0,5.3-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(66.7 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate"><tspan letter-spacing="-0.04em">T</tspan><tspan x="3.1" y="0">G</tspan></text>
+      </g>
+      <polyline points="275.7 80.5 273.2 85.6 270.7 80.5 275.7 80.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="275.7 90.7 273.2 85.6 270.7 90.7 275.7 90.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M452,283.1a5.3,5.3,0,0,0-5.3-5.3,5.4,5.4,0,1,0,5.3,5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="242.7 101.8 234.1 97.6 242.7 93.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M401.5,351.4a5.4,5.4,0,1,0-5.3,5.4,5.3,5.3,0,0,0,5.3-5.4" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="185.6 170 194.2 165.9 185.6 161.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="301.6 114.8 304.1 109.7 306.7 114.8 301.6 114.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="301.6 104.6 304.1 109.7 306.7 104.6 301.6 104.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="30.2 168.4 25.1 165.9 30.2 163.4 30.2 168.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="20 168.4 25.1 165.9 20 163.4 20 168.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="427.9 100.1 422.7 97.6 427.9 95.1 427.9 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="417.7 100.1 422.7 97.6 417.7 95.1 417.7 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="200" y1="97.6" x2="200" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="200" y1="86.1" x2="200" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M412.6,261.3a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="198.4 92.6 200 89.3 201.7 92.6 198.4 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="198.4 86.1 200 89.3 201.7 86.1 198.4 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="196.9 90.9 200 89.3 196.9 87.8 196.9 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(197.3 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">P</text>
+      </g>
+      <g style="isolation: isolate">
+        <text transform="translate(200.7 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">Å</text>
+      </g>
+      <line x1="141.8" y1="154.4" x2="141.8" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M354.4,329.5a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="140.2 160.7 141.8 157.6 143.5 160.7 140.2 160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="140.2 154.4 141.8 157.6 143.5 154.4 140.2 154.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="138.7 159.2 141.8 157.6 138.7 155.9 138.7 159.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(139.1 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">P</text>
+      </g>
+      <g style="isolation: isolate">
+        <text transform="translate(142.5 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">Å</text>
+      </g>
+      <line x1="141.8" y1="165.9" x2="141.8" y2="160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="183.5 0.5 244.9 0.5 244.9 18.2 183.5 18.2 183.5 0.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="286.3" y1="97.6" x2="286.3" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M498.8,261.3a5.2,5.2,0,0,0-5.3-5.3,5.3,5.3,0,0,0-5.3,5.3,5.3,5.3,0,0,0,5.3,5.3,5.3,5.3,0,0,0,5.3-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(283.6 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">T</text>
+      </g>
+      <g style="isolation: isolate">
+        <text transform="translate(287 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">Å</text>
+      </g>
+      <line x1="158.9" y1="165.9" x2="158.9" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M371.5,329.5a5.4,5.4,0,1,0-5.3,5.3,5.4,5.4,0,0,0,5.3-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(156.3 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">T</text>
+      </g>
+      <g style="isolation: isolate">
+        <text transform="translate(159.7 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">Å</text>
+      </g>
+      <polyline points="369.5 80.5 372.1 85.5 374.7 80.5 369.5 80.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="349.9 100.1 344.7 97.6 349.9 95.1 349.9 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="339.7 100.1 344.7 97.6 339.7 95.1 339.7 100.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="344.7 97.6 344.7 92 349.9 92 339.7 92 339.7 86.6 349.9 86.6 349.9 92" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="339.7" y1="89.2" x2="349.9" y2="89.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="369.5 90.7 372.1 85.5 374.7 90.7 369.5 90.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="395.6" y1="97.6" x2="395.6" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="395.6" y1="86.1" x2="395.6" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M608.2,261.2a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="394 92.6 395.6 89.3 397.3 92.6 394 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="394 86.1 395.6 89.3 397.3 86.1 394 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="392.5 90.9 395.6 89.3 392.5 87.8 392.5 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(392.3 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <polyline points="349.9 87.8 351.4 87.5 352.7 87.1 353.9 86.6 355 86 356 85.4 356.8 84.7 358.1 83.1 359.1 81.3 359.9 79.6 360.7 77.8 361.4 76.3 362.2 74.9 363.2 73.7 364.1 72.9 365.2 72.2 366.2 71.6 367.3 71.3 368.2 71.2 369.1 71.3 369.7 71.6 370.3 71.9 370.7 72.5 371.1 73.3 371.7 74.8 371.9 76.4 372.1 77.9 372.1 79.3 372.1 79.7 372.1 80.1 372.1 80.3 372.1 80.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="323.7" y1="97.6" x2="323.7" y2="92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="323.7" y1="86.1" x2="323.7" y2="81.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M536.3,261.2a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="322.1 92.6 323.7 89.3 325.4 92.6 322.1 92.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="322.1 86.1 323.7 89.3 325.4 86.1 322.1 86.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="320.6 90.9 323.7 89.3 320.6 87.8 320.6 90.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(320.5 77.9)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <polyline points="226.7 99.3 230 97.6 226.7 96.1 226.7 99.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="252.1 99.3 248.8 97.6 252.1 96.1 252.1 99.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="332.1 99.3 335.2 97.6 332.1 96.1 332.1 99.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="357.3 99.3 354.2 97.6 357.3 96.1 357.3 99.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="176.2 167.5 179.5 165.9 176.2 164.3 176.2 167.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="286.4" y1="165.9" x2="286.4" y2="158.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="286.4" y1="148.7" x2="286.4" y2="142.4" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="201.5" y1="165.9" x2="366.9" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="377.1" y1="165.9" x2="417.8" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="230.1" y1="165.9" x2="230.1" y2="172.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="230.1" y1="183.1" x2="230.1" y2="189.3" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polygon points="227.5 189.3 232.6 189.3 230.1 194.5 227.5 189.3" fill="blue"/>
+      <polygon points="227.5 189.3 232.6 189.3 230.1 194.5 227.5 189.3" fill="none"/>
+      <polyline points="227.5 189.3 230.1 194.5 232.6 189.3 227.5 189.3" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polygon points="286.4 137.3 288.9 142.4 283.9 142.4 286.4 137.3" fill="blue"/>
+      <polygon points="286.4 137.3 288.9 142.4 283.9 142.4 286.4 137.3" fill="none"/>
+      <polyline points="288.9 142.4 286.4 137.3 283.9 142.4 288.9 142.4" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <line x1="320.7" y1="158.6" x2="320.7" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <g style="isolation: isolate">
+        <text transform="translate(332.7 128.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="348.9 138.7 348.9 129.4 346.7 129.4 333.3 129.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(372.9 128.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.4,5</text>
+      </g>
+      <polyline points="389.1 138.7 389.1 129.4 386.9 129.4 373.4 129.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(232.7 203.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.6</text>
+      </g>
+      <polyline points="230.1 194.5 230.1 204.4 233.3 204.4 240.7 204.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(378.1 177.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.2</text>
+      </g>
+      <polyline points="372.1 170.9 372.1 178.7 378.5 178.7 385.9 178.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(292.6 152.7)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.7</text>
+      </g>
+      <polyline points="286.4 153.8 290.7 153.9 293.2 153.9 300.5 153.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(423.7 147.5)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.1</text>
+      </g>
+      <polyline points="422.9 165.9 422.9 148.6 424.1 148.6 430.4 148.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <g style="isolation: isolate">
+        <text transform="translate(328.1 152.3)" font-size="8.21" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">{{n}}.8</text>
+      </g>
+      <polyline points="320.7 153.5 326.6 153.5 328.6 153.5 336.5 153.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <line x1="348.9" y1="165.9" x2="348.9" y2="160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="348.9" y1="154.4" x2="348.9" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M561.5,329.5a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="347.2 160.7 348.9 157.6 350.5 160.7 347.2 160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="347.2 154.4 348.9 157.6 350.5 154.4 347.2 154.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="345.7 159.2 348.9 157.6 345.7 155.9 345.7 159.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(345.5 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <line x1="389.1" y1="165.9" x2="389.1" y2="160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="389.1" y1="154.4" x2="389.1" y2="149.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M601.7,329.5a5.4,5.4,0,1,0-5.4,5.3,5.4,5.4,0,0,0,5.4-5.3" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="387.5 160.7 389.1 157.6 390.8 160.7 387.5 160.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="387.5 154.4 389.1 157.6 390.8 154.4 387.5 154.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="386 159.2 389.1 157.6 386 155.9 386 159.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(385.9 146.2)" font-size="6.16" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">PG</text>
+      </g>
+      <polyline points="288.9 148.7 286.4 153.8 283.9 148.7 288.9 148.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="288.9 158.9 286.4 153.8 283.9 158.9 288.9 158.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="227.5 183.1 230.1 177.9 232.6 183.1 227.5 183.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="227.5 172.9 230.1 177.9 232.6 172.9 227.5 172.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="428 168.4 422.9 165.9 428 163.4 428 168.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="417.8 168.4 422.9 165.9 417.8 163.4 417.8 168.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="318.2 148.4 320.7 153.5 323.2 148.4 318.2 148.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="318.2 158.6 320.7 153.5 323.2 158.6 318.2 158.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="350 91 353 91.4 355.4 91.9 357.5 92.5 359.2 93.3 360.5 94.3 361.5 95.2 361.9 96.4 361.9 97.6 361.5 98.9 361 99.5 360.5 100.3 359.8 101 359.1 101.7 357.2 103.1 354.9 104.7 352.4 106.1 349.5 107.8 346.6 109.5 340.5 113 337.6 114.8 334.7 116.7 332.2 118.6 329.9 120.7 328 122.7 326.3 124.9 325 127.1 323.8 129.7 323 132.2 322.3 135.1 321.7 137.9 321.3 141.2 320.9 144.7 320.7 148.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.24"/>
+      <polygon points="301.6 121.1 306.7 121.1 304.1 126.2 301.6 121.1" fill="red"/>
+      <polygon points="301.6 121.1 306.7 121.1 304.1 126.2 301.6 121.1" fill="none"/>
+      <polyline points="301.6 121.1 304.1 126.2 306.7 121.1 301.6 121.1" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polyline points="366.9 165.9 372.1 160.7 377.1 165.9 372.1 170.9 366.9 165.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="372.1" y1="160.7" x2="372.1" y2="162.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="372.1" y1="170.9" x2="372.1" y2="169.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="372.1" y1="163.7" x2="372.1" y2="168.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <polyline points="149.9 97.6 155 92.6 160.1 97.6 155 102.8 149.9 97.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="155" y1="92.6" x2="155" y2="94.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="155" y1="102.8" x2="155" y2="101" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="155" y1="95.5" x2="155" y2="99.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <line x1="197.9" y1="165.9" x2="198.3" y2="165.9" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.68"/>
+      <polyline points="201.5 167.5 198.3 165.9 201.5 164.3 201.5 167.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <path d="M221.5,283a6.9,6.9,0,1,0-6.9,6.9,6.9,6.9,0,0,0,6.9-6.9" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(5.7 101.2)" font-size="10.26" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">1</text>
+      </g>
+      <path d="M221.5,351.3a6.9,6.9,0,1,0-6.9,6.9,6.9,6.9,0,0,0,6.9-6.9" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(5.1 169.4)" font-size="10.26" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">2</text>
+      </g>
+      <path d="M653.4,283.1a6.9,6.9,0,1,0-6.9,6.9,6.9,6.9,0,0,0,6.9-6.9" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(437 101.3)" font-size="10.26" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">3</text>
+      </g>
+      <path d="M653.4,351.4a6.9,6.9,0,1,0-6.9,6.9,6.9,6.9,0,0,0,6.9-6.9" transform="translate(-207.2 -185.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.08"/>
+      <g style="isolation: isolate">
+        <text transform="translate(436.5 169.5)" font-size="10.26" font-family="GOSTTypeB, GOST type B" style="isolation: isolate">4</text>
+      </g>
+    </g>
+  </g>
+</svg>

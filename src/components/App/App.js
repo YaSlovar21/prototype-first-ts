@@ -25,6 +25,7 @@ import { getStyleObjectFromString, parseIntAttributes } from '../../utils/funcs'
 import SchemeSvgReal from '../SchemeSvgReal/SchemeSvgReal';
 import Catalog from '../Catalog/Catalog';
 import Home from '../Home/Home';
+import Home2025 from '../Home2025/Home2025';
 
 function App() {
   const [selectedIngreds, setSelectedIngreds] = React.useState([]); 
@@ -36,7 +37,7 @@ function App() {
   const ingredsUvuu = useMemo(()=> ingreds?.filter(i => i.type === 'uv'), [ingreds]);
 
   const [nodeSvg, setNodeSvg] = React.useState(null)
-
+/*
   React.useEffect(()=> {
     fetch('https://functions.yandexcloud.net/d4ebl4hgnv1ngv9959o4').
       then(resp => {
@@ -56,7 +57,7 @@ function App() {
         console.log(ingreds);
         setIngreds(ingreds);
       }).catch(err=> console.log(err))
-  }, [])
+  }, [])*/
 
   return (
    
@@ -64,8 +65,9 @@ function App() {
     <AppAside />
       <div className={`${styles.content}`}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home2025 />} />
           <Route path='/catalog' element={<Catalog />} />
+          <Route path="/home"  element={<Home />} />
         </Routes>
       </div>
     </div>
