@@ -26,6 +26,8 @@ import SchemeSvgReal from '../SchemeSvgReal/SchemeSvgReal';
 import Catalog from '../Catalog/Catalog';
 import Home from '../Home/Home';
 import Home2025 from '../Home2025/Home2025';
+import Raschet from '../Raschet/Raschet';
+import { ROUTES } from '../../utils/constants';
 
 function App() {
   const [selectedIngreds, setSelectedIngreds] = React.useState([]); 
@@ -66,7 +68,8 @@ function App() {
       <div className={`${styles.content}`}>
         <Routes>
           <Route path="/" element={<Home2025 />} />
-          <Route path='/catalog' element={<Catalog />} />
+          <Route path={ROUTES.ptoRaschet} element={<Raschet />} />
+          <Route path={ROUTES.catalog} element={<Catalog />} />
           <Route path="/home"  element={<Home />} />
         </Routes>
       </div>

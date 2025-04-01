@@ -1,6 +1,7 @@
 export const ROUTES = {
     home: "/",
     catalog: "/catalog",
+    ptoRaschet: "/pto",
 }
 
 export const API_LINKS = {

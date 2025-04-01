@@ -22,6 +22,10 @@ function AppAside() {
                     </span>
                     Главная
                 </NavLink>
+                <NavLink to={ROUTES.ptoRaschet} className={({isActive})=> classNameActive(isActive) } >
+                    <span className={cn.aside__buttondec}></span>
+                    Расчёт ТО
+                </NavLink>
                 <NavLink to={ROUTES.catalog} className={({isActive})=> classNameActive(isActive) } >
                     <span className={cn.aside__buttondec}></span>
                     Каталог

@@ -13,6 +13,7 @@ import { CircularProgress } from '@mui/joy';
 Font.register({ family: 'GOST_type_A', src: fontSource });
 
 function renderNode(node) {
+    console.log(node);
     let Component;
     let componentProps = {};
     switch(node.tagName.toUpperCase()) {
@@ -23,11 +24,11 @@ function renderNode(node) {
         
         fontFamily: 'GOST_type_A',
         
-        //width: node.getAttribute('width'),
-        //height: node.getAttribute('height'),
+        width: node.getAttribute('width'),
+        height: node.getAttribute('height'),
         viewBox: node.getAttribute('viewBox'),
-        width: "100%",
-        height: "auto",
+        //width: "100%",
+        //height: "auto",
         }
         break;
     case "RECT": 
@@ -155,20 +156,19 @@ function renderNode(node) {
 }
 
 const styles = StyleSheet.create({
-  page: { fontFamily: 'GOST_type_A', letterSpacing: 2},
+  page: { fontFamily: 'GOST_type_A', letterSpacing: 2, display: 'flex', flexDirection: 'column', alignItems:'flex-start'},
 });
 
-function SchemeSvgReal2025({onSvgRendered, schemeUrl}) {
+function SchemeSvgReal2025({nodes}) {
 
     return (
       
-        <div className={`svg-container max-w-6xl ${cn.svgcontproto}`}>
+        <div className={`svg-container max-w-6xl w-full ${cn.svgcontproto}`}>
           
-             <PDFViewer>
+             <PDFViewer className='w-full h-screen'>
                 <Document>
-                    <Page size="A2"  style={styles.page}> {/*orientation='landscape'*/}
-                        {renderNode(document.querySelector('svg'))}   
-                
+                    <Page size="A3"  style={styles.page}> {/*orientation='landscape'*/}
+                        {nodes.map(node => renderNode(node))}   
                     </Page>
                 </Document>
               </PDFViewer>   

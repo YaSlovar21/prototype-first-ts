@@ -26,7 +26,7 @@ export default function SpecTable({specificationList, className}) {
       </thead>
       <tbody>
         {specificationList?.map((row) => (
-          <tr key={row.id}>
+          <tr key={row.idTemplate}>
             <td>{row.idTemplate}</td>
             <td>{row.name}</td>
             <td>{row.quantity}</td>
